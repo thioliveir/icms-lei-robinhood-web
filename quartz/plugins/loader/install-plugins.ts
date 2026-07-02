@@ -19,7 +19,9 @@ async function main() {
   }
 
   if (externalPlugins.length === 0) {
-    console.log("No external plugins to install.")
+    console.log("No external plugins to install. Regenerating default plugin index...")
+    const { regeneratePluginIndex } = await import("./gitLoader.js")
+    await regeneratePluginIndex({ verbose: true })
     return
   }
 
