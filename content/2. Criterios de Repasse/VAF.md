@@ -61,6 +61,18 @@ A apuração do VAF é realizada anualmente pela Secretaria de Estado de Fazenda
 
 ---
 
+## ⚖️ Legislações Infralegais e Normas Regulamentadoras
+
+### Decreto Estadual nº 47.950/2020 (Regulamento Geral)
+O principal regulamento da apuração do VAF no Estado é o **Decreto nº 47.950, de 15 de maio de 2020**, que disciplina o preenchimento da Declaração Anual do Movimento Econômico e Fiscal (DAMEF) e os critérios de validação das operações declaradas pelas empresas.
+
+> [!important] Alteração Recente: Decreto nº 48.966, de 23 de dezembro de 2024
+> Este decreto revogou o **inciso VI do § 2º do art. 4º** do Decreto nº 47.950/2020, produzindo efeitos a partir da apuração do **VAF ano-base 2025**.
+> *   **O que mudou:** O inciso revogado proibia o cômputo do **IPI (Imposto sobre Produtos Industrializados)** nas saídas do cálculo do VAF.
+> *   **Impacto Prático:** Com a revogação, o IPI volta a ser integrado ao cálculo do VAF, em conformidade com o art. 3º, § 1º, I da Lei Complementar Federal nº 63/1990. Municípios com polos industriais consolidados terão um incremento em seus VAFs individuais com a reinclusão do IPI a partir de 2025.
+
+---
+
 ## 🔗 Relação com Outros Critérios
 Por representar a maior parte do repasse (75%), o VAF costuma favorecer municípios com forte atividade industrial, comercial ou mineradora (como Betim, Contagem, Uberlândia e Belo Horizonte). Os outros 25% dos critérios da Lei Robin Hood (Educação, Meio Ambiente, ICMS Solidário, etc.) agem como mecanismos de compensação redistributiva para municípios de menor atividade econômica própria.
 
