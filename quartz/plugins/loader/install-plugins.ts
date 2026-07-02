@@ -1,10 +1,22 @@
 #!/usr/bin/env node
+import fs from "fs"
+import path from "path"
+import YAML from "yaml"
 import { installPlugins, parsePluginSource } from "./gitLoader.js"
-import config from "../../../quartz.js"
 
 async function main() {
-  const quartzConfig: any = config
-  const externalPlugins = quartzConfig.externalPlugins || []
+  const configPath = path.join(process.cwd(), "quartz.config.yaml")
+  let externalPlugins = []
+
+  if (fs.existsSync(configPath)) {
+    try {
+      const raw = fs.readFileSync(configPath, "utf-8")
+      const parsed = YAML.parse(raw) as any
+      externalPlugins = parsed?.externalPlugins || []
+    } catch (e) {
+      console.warn("Failed to parse quartz.config.yaml, checking default configuration.", e)
+    }
+  }
 
   if (externalPlugins.length === 0) {
     console.log("No external plugins to install.")
