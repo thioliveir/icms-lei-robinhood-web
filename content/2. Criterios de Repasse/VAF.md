@@ -58,12 +58,12 @@ Onde:
 
 A apuração do VAF é realizada anualmente pela Secretaria de Estado de Fazenda de Minas Gerais (SEF-MG), seguindo os prazos:
 
-| Prazo Limite | Evento / Ação |
-| :--- | :--- |
-| **Até 30 de junho** | Publicação do **Índice Provisório do VAF** de cada município. |
-| **Após a publicação** | Abertura do prazo para que os municípios apresentem **Impugnações** (correções de lançamentos fiscais). |
-| **Trinta dias após o prazo** | Publicação do resultado do julgamento das impugnações do VAF. |
-| **Até 31 de agosto** | Publicação do **Índice Definitivo do VAF** para vigorar no ano civil seguinte. |
+| Prazo Limite                 | Evento / Ação                                                                                           |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------ |
+| **Até 30 de junho**          | Publicação do **Índice Provisório do VAF** de cada município.                                           |
+| **Após a publicação**        | Abertura do prazo para que os municípios apresentem **Impugnações** (correções de lançamentos fiscais). |
+| **Trinta dias após o prazo** | Publicação do resultado do julgamento das impugnações do VAF.                                           |
+| **Até 31 de agosto**         | Publicação do **Índice Definitivo do VAF** para vigorar no ano civil seguinte.                          |
 
 ---
 

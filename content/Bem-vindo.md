@@ -25,8 +25,8 @@ Bem-vindo ao seu cofre de estudos da **Lei nº 18.030/2009**, que regulamenta o 
 ### 📊 Critérios de Repasse (Art. 1º)
 Abaixo estão os critérios ativos e revogados estabelecidos para a distribuição do ICMS. Use os links para criar ou editar notas de estudo específicas de cada critério:
 
-| Critério                              | Nota de Estudo                                           | Status / Observação                                   |
-| :------------------------------------ | :------------------------------------------------------- | :---------------------------------------------------- |
+| Critério                              | Nota de Estudo                   | Status / Observação                                   |
+| :------------------------------------ | :------------------------------- | :---------------------------------------------------- |
 | **I - VAF** (Valor Adicionado Fiscal) | [[VAF]]                          | Critério principal da receita.                        |
 | **II - Área Geográfica**              | [[Area Geografica]]              | Relação de área do município.                         |
 | ~~III - População~~                   | [[Populacao]]                    | *Revogado pela Lei 24.431/2023*.                      |
