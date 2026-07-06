@@ -30,7 +30,7 @@ $$V_{\text{rateio}} = \frac{V_{\text{geração}}}{2}$$
 
 ### Passo 2: Rateio entre Municípios com Áreas Alagadas (Excluindo Sede)
 O montante $V_{\text{rateio}}$ é distribuído entre os municípios que possuem áreas alagadas pelo reservatório da usina e que **não são a sede física da usina**. A distribuição é estritamente proporcional à extensão da área do reservatório contida no território de cada município.
-*   Os dados oficiais sobre as áreas dos reservatórios em cada município são obtidos da **ANEEL (Agência Nacional de Energia Elétrica)** e consolidados pela Secretaria de Estado de Fazenda (**SEF-MG**).
+*   Os dados oficiais sobre as áreas dos reservatórios em cada município são obtidos da **ANEEL (Agência Nacional de Energia Elétrica)**, disponíveis para consulta pública no **[Painel Integrado de Relatórios - ANEEL](https://portalrelatorios.aneel.gov.br/Integrado)**, e consolidados pela Secretaria de Estado de Fazenda (**SEF-MG**).
 
 $$V_{i, u} = V_{\text{rateio}, u} \times \frac{\text{Área Alagada}_{i, u}}{\text{Área Alagada Total}_u}$$
 
@@ -55,4 +55,17 @@ $$IP_{RH, i} = \frac{B_i}{\sum_{j} B_j} \times 0,25\%$$
 Ficam excluídas do cálculo as áreas de reservatório que estejam dentro do território do **município sede da usina** cujo movimento econômico (Valor Adicionado) já tenha sido computado integralmente no cálculo do critério de participação no **VAF** (Art. 1º, inciso I). Essa regra evita a duplicidade de ganhos pelo mesmo ativo produtor.
 
 ---
-*Documento de estudo com base no [[Lei 18030-2009#Art. 6º|Art. 6º]] da Lei nº 18.030/2009.*
+
+## 🔍 Como o Município Deve Auditar o Critério
+
+Como os dados de áreas inundadas por reservatórios são a métrica central de rateio, o auditor municipal deve atuar em duas frentes de controle:
+
+### 1. Auditoria Geográfica e Cadastral (ANEEL)
+*   **Acompanhamento no Painel:** O gestor deve utilizar o **[Painel Integrado da CFURH - ANEEL](https://portalrelatorios.aneel.gov.br/Integrado)** para monitorar os dados cadastrais das Usinas Hidrelétricas (UHE) que fazem divisa ou adentram o município.
+*   **Retificações de Limites Territoriais:** Alterações e atualizações cartográficas promovidas pelo IBGE nos limites territoriais municipais podem alterar a fatia da área inundada correspondente ao município. Caso isso ocorra, o município deve requerer formalmente à ANEEL e à SEF-MG a atualização das planilhas de rateio de área alagada.
+
+### 2. Confronto com as Publicações da SEF-MG
+*   **Memória de Cálculo:** Periodicamente, a SEF-MG publica os dados de área alagada e os coeficientes de repasse provisórios e definitivos. O auditor deve checar se a área total alagada considerada pela SEF-MG condiz exatamente com a informada nas resoluções homologatórias da ANEEL.
+
+---
+*Documento de estudo com base no [[Lei 18030-2009#Art. 6º|Art. 6º]] da Lei nº 18.030/2009 e dados informacionais do **[Painel Integrado de Relatórios - ANEEL](https://portalrelatorios.aneel.gov.br/Integrado)**.*
